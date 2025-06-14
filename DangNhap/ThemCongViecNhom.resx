@@ -1,0 +1,918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TXB_MaCongViec.TabIndex" type="System.Int32, mscorlib">
+    <value>206</value>
+  </data>
+  <data name="&gt;&gt;LB_noidung.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_macanho.TabIndex" type="System.Int32, mscorlib">
+    <value>192</value>
+  </data>
+  <data name="LB_PhiDichVu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
+    <value>210</value>
+  </data>
+  <data name="&gt;&gt;BTN_file.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TXB_macanho.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CB_thoihan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CBB_QuyenTruyCap.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TXB_ghiChu.Name" xml:space="preserve">
+    <value>TXB_ghiChu</value>
+  </data>
+  <data name="&gt;&gt;LB_quyentruycap.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="LB_PhiDichVu.TabIndex" type="System.Int32, mscorlib">
+    <value>240</value>
+  </data>
+  <data name="&gt;&gt;LB_thoihan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LB_maphongban.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 22</value>
+  </data>
+  <data name="DTP_ngay.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LB_thoihan.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 533</value>
+  </data>
+  <data name="&gt;&gt;LB_noidung.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_thoihan.Name" xml:space="preserve">
+    <value>LB_thoihan</value>
+  </data>
+  <data name="&gt;&gt;BTN_ok.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="&gt;&gt;DTP_gio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BTN_file.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 39</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TXB_PhiDichVu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="LLB_themfilenhom.Text" xml:space="preserve">
+    <value>linkLabel1</value>
+  </data>
+  <data name="&gt;&gt;LB_macanho.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CBB_QuyenTruyCap.Name" xml:space="preserve">
+    <value>CBB_QuyenTruyCap</value>
+  </data>
+  <data name="BTN_file.Text" xml:space="preserve">
+    <value>Tệp đính kèm</value>
+  </data>
+  <data name="&gt;&gt;BTN_huy.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;CBB_phongban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CB_thoihan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 424</value>
+  </data>
+  <data name="&gt;&gt;LB_macanho.Name" xml:space="preserve">
+    <value>LB_macanho</value>
+  </data>
+  <data name="&gt;&gt;LB_MaCongViec.Name" xml:space="preserve">
+    <value>LB_MaCongViec</value>
+  </data>
+  <data name="LB_maphongban.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 54</value>
+  </data>
+  <data name="LB_macanho.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LB_noidung.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="BTN_file.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;TXB_ghiChu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CBB_nhom.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="BTN_file.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;DTP_gio.Name" xml:space="preserve">
+    <value>DTP_gio</value>
+  </data>
+  <data name="TXB_noidung.TabIndex" type="System.Int32, mscorlib">
+    <value>191</value>
+  </data>
+  <data name="BTN_ok.Text" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="&gt;&gt;LB_Ghichu.Name" xml:space="preserve">
+    <value>LB_Ghichu</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Items1" xml:space="preserve">
+    <value>Bộ phận</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Items2" xml:space="preserve">
+    <value>Công ty</value>
+  </data>
+  <data name="TXB_ghiChu.TabIndex" type="System.Int32, mscorlib">
+    <value>211</value>
+  </data>
+  <data name="CBB_phongban.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;DTP_ngay.Name" xml:space="preserve">
+    <value>DTP_ngay</value>
+  </data>
+  <data name="CBB_nhom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 141</value>
+  </data>
+  <data name="&gt;&gt;LB_PhiDichVu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DTP_ngay.CustomFormat" xml:space="preserve">
+    <value>yyyy-MM-dd</value>
+  </data>
+  <data name="TXB_noidung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>638, 19</value>
+  </data>
+  <data name="DTP_ngay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 417</value>
+  </data>
+  <data name="TXB_MaCongViec.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Nhóm</value>
+  </data>
+  <data name="TXB_MaCongViec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="BTN_file.TabIndex" type="System.Int32, mscorlib">
+    <value>198</value>
+  </data>
+  <data name="CBB_nhom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="CB_thoihan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LB_thoihan.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TXB_PhiDichVu.Name" xml:space="preserve">
+    <value>TXB_PhiDichVu</value>
+  </data>
+  <data name="LB_PhiDichVu.Text" xml:space="preserve">
+    <value>Phí dịch vụ</value>
+  </data>
+  <data name="LB_quyentruycap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 333</value>
+  </data>
+  <data name="&gt;&gt;TXB_macanho.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CB_thoihan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 17</value>
+  </data>
+  <data name="BTN_ok.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 35</value>
+  </data>
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_huy.Name" xml:space="preserve">
+    <value>BTN_huy</value>
+  </data>
+  <data name="&gt;&gt;DTP_ngay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CBB_nhom.Name" xml:space="preserve">
+    <value>CBB_nhom</value>
+  </data>
+  <data name="LB_thoihan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="&gt;&gt;CB_thoihan.Name" xml:space="preserve">
+    <value>CB_thoihan</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1259, 1</value>
+  </data>
+  <data name="LB_quyentruycap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="TXB_noidung.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_macanho.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="&gt;&gt;TXB_MaCongViec.Name" xml:space="preserve">
+    <value>TXB_MaCongViec</value>
+  </data>
+  <data name="BTN_huy.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="LLB_themfilenhom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="LB_MaCongViec.Text" xml:space="preserve">
+    <value>Mã Công Việc</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 147</value>
+  </data>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="TXB_MaCongViec.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CBB_phongban.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 48</value>
+  </data>
+  <data name="LB_maphongban.Text" xml:space="preserve">
+    <value>Phòng ban</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1277, 609</value>
+  </data>
+  <data name="&gt;&gt;LB_Ghichu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.TabIndex" type="System.Int32, mscorlib">
+    <value>207</value>
+  </data>
+  <data name="&gt;&gt;LB_quyentruycap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXB_ghiChu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXB_macanho.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BTN_huy.TabIndex" type="System.Int32, mscorlib">
+    <value>196</value>
+  </data>
+  <data name="LLB_themfilenhom.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BTN_ok.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1120, 554</value>
+  </data>
+  <data name="LB_maphongban.TabIndex" type="System.Int32, mscorlib">
+    <value>189</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="CBB_QuyenTruyCap.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DTP_gio.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LB_thoihan.TabIndex" type="System.Int32, mscorlib">
+    <value>193</value>
+  </data>
+  <data name="BTN_huy.Text" xml:space="preserve">
+    <value>Hoàn tác</value>
+  </data>
+  <data name="LB_quyentruycap.Text" xml:space="preserve">
+    <value>Quyền truy cập</value>
+  </data>
+  <data name="&gt;&gt;CBB_phongban.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="TXB_MaCongViec.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TXB_PhiDichVu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_quyentruycap.Name" xml:space="preserve">
+    <value>LB_quyentruycap</value>
+  </data>
+  <data name="&gt;&gt;LLB_themfilenhom.Name" xml:space="preserve">
+    <value>LLB_themfilenhom</value>
+  </data>
+  <data name="TXB_noidung.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LB_Ghichu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 22</value>
+  </data>
+  <data name="&gt;&gt;CBB_phongban.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BTN_huy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 35</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="BTN_file.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="LB_noidung.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_PhiDichVu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="LB_noidung.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LLB_themfilenhom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LLB_themfilenhom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>209</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 327</value>
+  </data>
+  <data name="&gt;&gt;CBB_nhom.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BTN_file.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="CBB_nhom.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="LB_quyentruycap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 22</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BTN_ok.TabIndex" type="System.Int32, mscorlib">
+    <value>195</value>
+  </data>
+  <data name="TXB_PhiDichVu.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DTP_gio.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TXB_MaCongViec.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ThemCongViecNhom</value>
+  </data>
+  <data name="TXB_PhiDichVu.TabIndex" type="System.Int32, mscorlib">
+    <value>239</value>
+  </data>
+  <data name="&gt;&gt;LB_PhiDichVu.Name" xml:space="preserve">
+    <value>LB_PhiDichVu</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;LB_macanho.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;BTN_ok.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="BTN_file.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;LB_PhiDichVu.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DTP_gio.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="TXB_macanho.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1, 496</value>
+  </data>
+  <data name="LB_noidung.TabIndex" type="System.Int32, mscorlib">
+    <value>190</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ThemCongViecNhom</value>
+  </data>
+  <data name="&gt;&gt;BTN_huy.Type" xml:space="preserve">
+    <value>Guna.UI.WinForms.GunaGradientButton, Guna.UI, Version=1.9.0.1, Culture=neutral, PublicKeyToken=ad275b4be6718d4b</value>
+  </data>
+  <data name="TXB_MaCongViec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 234</value>
+  </data>
+  <data name="TXB_ghiChu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="LLB_themfilenhom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TXB_PhiDichVu.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LB_PhiDichVu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 333</value>
+  </data>
+  <data name="BTN_ok.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 9pt</value>
+  </data>
+  <data name="&gt;&gt;LB_maphongban.Name" xml:space="preserve">
+    <value>LB_maphongban</value>
+  </data>
+  <data name="CBB_nhom.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="LB_MaCongViec.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CB_thoihan.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TXB_MaCongViec.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DTP_ngay.TabIndex" type="System.Int32, mscorlib">
+    <value>194</value>
+  </data>
+  <data name="LB_quyentruycap.TabIndex" type="System.Int32, mscorlib">
+    <value>197</value>
+  </data>
+  <data name="LB_maphongban.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TXB_macanho.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 144</value>
+  </data>
+  <data name="&gt;&gt;LB_noidung.Name" xml:space="preserve">
+    <value>LB_noidung</value>
+  </data>
+  <data name="&gt;&gt;TXB_macanho.Name" xml:space="preserve">
+    <value>TXB_macanho</value>
+  </data>
+  <data name="DTP_ngay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 30</value>
+  </data>
+  <data name="&gt;&gt;TXB_PhiDichVu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BTN_file.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 550</value>
+  </data>
+  <data name="BTN_huy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>972, 554</value>
+  </data>
+  <data name="LB_Ghichu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 240</value>
+  </data>
+  <data name="DTP_gio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;CBB_phongban.Name" xml:space="preserve">
+    <value>CBB_phongban</value>
+  </data>
+  <data name="&gt;&gt;CBB_QuyenTruyCap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DTP_ngay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LB_Ghichu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BTN_file.Name" xml:space="preserve">
+    <value>BTN_file</value>
+  </data>
+  <data name="LB_MaCongViec.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 22</value>
+  </data>
+  <data name="TXB_ghiChu.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TXB_macanho.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="LB_noidung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 54</value>
+  </data>
+  <data name="LB_quyentruycap.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TXB_ghiChu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 236</value>
+  </data>
+  <data name="CBB_phongban.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="&gt;&gt;CBB_QuyenTruyCap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TXB_PhiDichVu.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_thoihan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 421</value>
+  </data>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CBB_QuyenTruyCap.Items" xml:space="preserve">
+    <value>Riêng tư</value>
+  </data>
+  <data name="&gt;&gt;TXB_macanho.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXB_noidung.Name" xml:space="preserve">
+    <value>TXB_noidung</value>
+  </data>
+  <data name="&gt;&gt;BTN_huy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CB_thoihan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CBB_phongban.TabIndex" type="System.Int32, mscorlib">
+    <value>199</value>
+  </data>
+  <data name="&gt;&gt;TXB_noidung.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;CBB_nhom.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BTN_file.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="CBB_phongban.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 30</value>
+  </data>
+  <data name="LB_thoihan.Text" xml:space="preserve">
+    <value>Thời hạn</value>
+  </data>
+  <data name="LLB_themfilenhom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 561</value>
+  </data>
+  <data name="TXB_PhiDichVu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;TXB_ghiChu.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TXB_noidung.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LB_PhiDichVu.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CBB_nhom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TXB_macanho.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="CBB_nhom.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="LB_Ghichu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LB_Ghichu.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DTP_ngay.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;LB_MaCongViec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TXB_noidung.Location" type="System.Drawing.Point, System.Drawing">
+    <value>829, 48</value>
+  </data>
+  <data name="&gt;&gt;LB_MaCongViec.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LLB_themfilenhom.TabIndex" type="System.Int32, mscorlib">
+    <value>213</value>
+  </data>
+  <data name="DTP_ngay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LB_MaCongViec.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;CB_thoihan.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LB_Ghichu.TabIndex" type="System.Int32, mscorlib">
+    <value>212</value>
+  </data>
+  <data name="TXB_macanho.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CB_thoihan.TabIndex" type="System.Int32, mscorlib">
+    <value>208</value>
+  </data>
+  <data name="LB_noidung.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 22</value>
+  </data>
+  <data name="LB_macanho.Location" type="System.Drawing.Point, System.Drawing">
+    <value>676, 150</value>
+  </data>
+  <data name="&gt;&gt;BTN_file.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TXB_PhiDichVu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 329</value>
+  </data>
+  <data name="LB_MaCongViec.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 240</value>
+  </data>
+  <data name="&gt;&gt;TXB_MaCongViec.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TXB_ghiChu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;BTN_ok.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_PhiDichVu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;LB_quyentruycap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DTP_gio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 30</value>
+  </data>
+  <data name="&gt;&gt;BTN_ok.Name" xml:space="preserve">
+    <value>BTN_ok</value>
+  </data>
+  <data name="&gt;&gt;LB_macanho.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_macanho.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LB_Ghichu.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LB_maphongban.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="LB_maphongban.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="&gt;&gt;TXB_noidung.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_maphongban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DTP_gio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 417</value>
+  </data>
+  <data name="&gt;&gt;DTP_gio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LB_Ghichu.Text" xml:space="preserve">
+    <value>Ghi chú</value>
+  </data>
+  <data name="LB_thoihan.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LB_MaCongViec.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt</value>
+  </data>
+  <data name="LB_macanho.Text" xml:space="preserve">
+    <value>Mã căn hộ</value>
+  </data>
+  <data name="&gt;&gt;LB_thoihan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LB_maphongban.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LB_MaCongViec.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LLB_themfilenhom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TXB_noidung.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LB_noidung.Text" xml:space="preserve">
+    <value>Nội dung</value>
+  </data>
+  <data name="BTN_file.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFGSURBVEhL7ZWx
+        SsNQFIZTakHpC+hLVB/ASdTnEHTpKOggOoijL1AsSgfR1UEHURAHoSIFFwdd3HQSFHQR0fj9l79ZgpqE
+        uuWDD879zz33hgxJ9BdxHFdxAS/wzaqex6q3FYMD6niKX3iIS/bI2QnWvT0/DO/hK045SiCbdm/XUT4Y
+        nEA95ZyjFPT0mrSn4Sg7DK3hMw45SkGvhi+46ig7DLWx56XWIzhrhx0r72Hby+ww1MGu6zG8wz63OOpe
+        Fzuqc6EhDbvewgds4Dg+Ysu9gVxwhduhAdQ7ylwP5IJrDE8sVCtzXV5QXvADGtKw6/KCNBrSsOt/u+DS
+        9T6uhAZQ69vUv0D71kMjDwxt4hNWHCWQneGxl8XggEkUi44CrGfwE5uOisMhetfiAJdRX9EPPMeatxWH
+        QyrYxBt8x3vcwOSP9jtR9A0zQKF9qqqYoAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>en</value>
+  </metadata>
+</root>
