@@ -30,3 +30,13 @@ The Tasmana hotel task management software for BCMP Korea company as part of the
 * Sending Email to employees
 # Stack
 ADO.NET, SQL Server, Visual Studio, Window Form, EmguCV.
+
+# Contributors
+This project was developed by the following members of Group 7 (Course: Software Engineering, TDTU):
+
+- **Phan Văn Quốc Dinh** – Team Leader
+- **Nguyễn Mỹ Duyên** – Backend Developer, Documentation
+- **Trần Minh Đức** – Database Designer, Backend Developer, Integration Testing
+- **Nguyễn Minh Khánh** – UI Designer, Testing
+- **Hồ Nguyễn An Khang** – Backend Developer, Database Designer, Integration Testing
+
